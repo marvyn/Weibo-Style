@@ -616,7 +616,7 @@ form.left_nav_line {
 	text-shadow:0 1px 1px rgba(255,255,255,.75);
 }
 
-#pl_business_enterpriseWeiboNew,#trustPagelet_checkin_lotteryv5,#pl_rightmod_userguide,#trustPagelet_recom_interestv5,#pl_rightmod_ads35,#trustPagelet_zt_hottopicv5,#trustPagelet_recom_memberv5,#trustPagelet_recom_allinonev5,#pl_rightmod_ads36,#pl_rightmod_vservice,#pl_rightmod_noticeboard,#pl_content_bubBox,#pl_rightmod_feedback,#pl_rightmod_reportentry,#pl_content_commentTopNav,#pl_rightmod_helpcomment,#pl_rightmod_helpfav,#pl_rightmod_helptome,#pl_leftnav_app,#pl_content_setSkin {
+#pl_business_enterpriseWeiboNew,#trustPagelet_checkin_lotteryv5,#pl_rightmod_userguide,#Pl_Rightmod_Littlehelp,#pl_rightmod_weibodesk,#pl_rightmod_feedback,#pl_common_reportentry,#trustPagelet_recom_interestv5,#pl_rightmod_ads35,#trustPagelet_zt_hottopicv5,#trustPagelet_recom_memberv5,#trustPagelet_recom_allinonev5,#pl_rightmod_ads36,#pl_rightmod_vservice,#pl_rightmod_noticeboard,#pl_content_bubBox,#pl_rightmod_feedback,#pl_rightmod_reportentry,#pl_content_commentTopNav,#pl_rightmod_helpcomment,#pl_rightmod_helpfav,#pl_rightmod_helptome,#pl_leftnav_app,#pl_content_setSkin {
 	display:none;
 }
 
@@ -865,8 +865,8 @@ div[node-type="moreList"] .lev a:hover,div[node-type="moreList"] .lev a:hover .l
 	line-height:12px;
 }
 
-.B_favor_me .W_main_c {
-	padding:6px 0;
+.B_favor_me .W_main_c,.B_message_list .W_main_c,.B_box_comment .W_main_c,.B_box_comment_at .W_main_c,.B_box_comment_at .W_main_r {
+	padding:10px 0!important;
 	background:#fff;
 }
 
@@ -874,13 +874,9 @@ div[node-type="moreList"] .lev a:hover,div[node-type="moreList"] .lev a:hover .l
 	padding:0;
 }
 
-.B_mention_me .tab_normal,.B_mention_me .group_read,.B_box_comment_at .group_read,.B_send_me .tab_normal,.B_favor_me .group_read,.B_send_me .group_read,.B_box_comment .group_read,.B_box_comment .tab_normal {
+.B_mention_me .tab_normal,.B_message_list .tab_normal,.B_mention_me .group_read,.B_box_comment_at .group_read,.B_send_me .tab_normal,.B_favor_me .group_read,.B_send_me .group_read,.B_box_comment .group_read,.B_box_comment .tab_normal {
 	margin:0 12px 6px;
-}
-
-.B_box_comment_at .W_main_c,.B_box_comment_at .W_main_r {
-	padding:10px 0;
-	background:#fff;
+	padding:0;
 }
 
 .profile_top .pf_head {
@@ -1020,7 +1016,9 @@ div[node-type="moreList"] .lev a:hover,div[node-type="moreList"] .lev a:hover .l
 .B_profile .WB_feed dl .repeat .WB_arrow {
 	margin:-18px 0 0 716px !important;
 }
-
+.B_profile .W_main_c {
+	width:100%;
+}
 .comment_list {
 	padding:10px 0;
 }
@@ -1220,10 +1218,6 @@ div[node-type="feed_list_media_prev"] {
 
 .ico_faces {
 	margin-top:2px!important;
-}
-
-.B_box_comment .W_main_c {
-	padding:6px 0;
 }
 
 .right_btn .bottom_btn {
