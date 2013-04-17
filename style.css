@@ -1389,3 +1389,12 @@ a#base_scrollToTop {
 .user_atten_l li strong {
 	font-size:14px!important;
 }
+.private_list_box{margin:0}
+.check_operation{padding:9px 12px;border-bottom:1px solid #ccc}
+.check_operation .private_list{padding:0;border:0}
+.private_list .hover{display:none}
+.tab_normal{background:transparent!important}
+.message_acbox>div{border:0!important;background:#fff!important;top:65px!important;left:557px!important;width:566px!important;height:24px!important;padding:0!important}
+.message_acbox>div h5.title{padding:0!important;line-height:24px}
+.message_wrap .operation_ck{line-height:24px;padding-top:0}
+.atch_operation .operation_btn{margin-top:0}
