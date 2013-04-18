@@ -855,7 +855,7 @@ div[node-type="moreList"] .lev a:hover,div[node-type="moreList"] .lev a:hover .l
 }
 
 .WB_left_nav .levmore {
-	padding:0;
+	padding:0!important;
 }
 
 .WB_left_nav .levmore .S_link1 {
@@ -866,7 +866,7 @@ div[node-type="moreList"] .lev a:hover,div[node-type="moreList"] .lev a:hover .l
 }
 
 .B_favor_me .W_main_c,.B_message_list .W_main_c,.B_box_comment .W_main_c,.B_box_comment_at .W_main_c,.B_box_comment_at .W_main_r {
-	padding:10px 0!important;
+	padding:6px 0!important;
 	background:#fff;
 }
 
@@ -874,11 +874,22 @@ div[node-type="moreList"] .lev a:hover,div[node-type="moreList"] .lev a:hover .l
 	padding:0;
 }
 
-.B_mention_me .tab_normal,.B_message_list .tab_normal,.B_mention_me .group_read,.B_box_comment_at .group_read,.B_send_me .tab_normal,.B_favor_me .group_read,.B_send_me .group_read,.B_box_comment .group_read,.B_box_comment .tab_normal {
+.B_mention_me .tab_normal,.B_message_list .tab_normal,.B_message_list .group_read,.B_mention_me .group_read,.B_box_comment_at .group_read,.B_send_me .tab_normal,.B_favor_me .group_read,.B_send_me .group_read,.B_box_comment .group_read,.B_box_comment .tab_normal {
 	margin:0 12px 6px;
 	padding:0;
 }
 
+.B_message_list .message_acbox{
+	position: relative;
+	height:24px;
+	margin: 6px 12px;
+}
+.B_message_list .message_bottom_ac {
+	margin: 12px 12px 6px;
+}
+.B_message_list .message_bottom_ac .message_allbtn {
+	float: none;
+}
 .profile_top .pf_head {
 	left:10px!important;
 }
@@ -1394,7 +1405,7 @@ a#base_scrollToTop {
 .check_operation .private_list{padding:0;border:0}
 .private_list .hover{display:none}
 .tab_normal{background:transparent!important}
-.message_acbox>div{border:0!important;background:#fff!important;top:65px!important;left:557px!important;width:566px!important;height:24px!important;padding:0!important}
+.message_acbox>div{border:0!important;background:#fff!important;top:0!important;left:0!important;width:566px!important;height:24px!important;padding:0!important}
 .message_acbox>div h5.title{padding:0!important;line-height:24px}
 .message_wrap .operation_ck{line-height:24px;padding-top:0}
 .atch_operation .operation_btn{margin-top:0}
