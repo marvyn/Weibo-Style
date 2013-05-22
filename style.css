@@ -10,7 +10,7 @@ fieldset legend {
 	padding:0;
 }
 
-.approve,.approve_co,.ico_club,.ico_member,.icon_sw_movie,.icon_sw_music,.icon_sw_mood,.icon_sw_vote,.icon_sw_qing,.icon_sw_welfare {
+.approve,.approve_co,.ico_club,.ico_member,.icon_sw_movie,.ico_pai,.icon_sw_music,.icon_sw_mood,.icon_sw_vote,.icon_sw_qing,.icon_sw_welfare {
 	display:none;
 }
 
@@ -1125,10 +1125,9 @@ div[node-type="feed_list_media_prev"] {
 }
 
 .WB_feed .news {
-	overflow:hidden;
 	padding:0;
 	width:auto;
-	height:100px;
+	height:auto;
 }
 
 .WB_feed .WB_feed_type {
@@ -1409,3 +1408,17 @@ a#base_scrollToTop {
 .message_acbox>div h5.title{padding:0!important;line-height:24px;}
 .message_wrap .operation_ck{padding-top:0;line-height:24px;}
 .atch_operation .operation_btn{margin-top:0;}
+
+.layer_menu_list {
+	padding: 0!important;
+	border-color: rgba(0,0,0,0.2);
+	border-radius: 0!important;
+	box-shadow: 0 0 1px rgba(0,0,0,0.3);
+}
+.layer_menu_list ul li a {
+
+}
+.layer_menu_list ul li a:hover, .layer_menu_list ul li.cur a,.layer_menu_list ul li.cur a:hover {
+	background-color: #00abef!important;
+	color: #fff;
+}
