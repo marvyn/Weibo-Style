@@ -1241,7 +1241,7 @@ div[node-type="moreList"] .lev a:hover,div[node-type="moreList"] .lev a:hover .l
 
 .comment_list
 {
-	padding:10px 0
+	padding:10px 0!important
 }
 
 .WB_feed .WB_media_expand
