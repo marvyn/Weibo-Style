@@ -1201,11 +1201,11 @@ div[node-type="feed_list_media_prev"] {
 }
 
 .B_profile .WB_feed .repeat .input textarea,.B_profile .WB_feed .repeat .input textarea {
-	width:774px!important;
+	width:100%!important;
 }
 
 .B_profile .WB_feed dl .repeat .input textarea,.B_profile .WB_feed dl .repeat .input textarea {
-	width:712px!important;
+	width:100%!important;
 }
 
 .WB_func .WB_from span.hover {
