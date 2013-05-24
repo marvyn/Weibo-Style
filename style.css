@@ -8,6 +8,9 @@
 textarea,textarea:before,textarea:after,input,input:before,input:after{
 	box-sizing:border-box
 }
+textarea{
+	width:100%
+}
 fieldset legend {
 	margin:0;
 	padding:0;
@@ -1189,6 +1192,7 @@ div[node-type="feed_list_media_prev"] {
 	padding:4px;
 	width:100%;
 	border-radius:0;
+	height:24px;
 }
 
 .B_index .WB_feed dl .repeat .input textarea {
