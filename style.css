@@ -617,7 +617,7 @@ form.left_nav_line {
 	text-shadow:0 1px 1px rgba(255,255,255,.75);
 }
 
-#pl_business_enterpriseWeiboNew,#trustPagelet_checkin_lotteryv5,#pl_rightmod_userguide,#Pl_Rightmod_Littlehelp,#pl_rightmod_weibodesk,#pl_rightmod_feedback,#pl_common_reportentry,#trustPagelet_recom_interestv5,#pl_rightmod_ads35,#trustPagelet_zt_hottopicv5,#trustPagelet_recom_memberv5,#trustPagelet_recom_allinonev5,#pl_rightmod_ads36,#pl_rightmod_vservice,#pl_rightmod_noticeboard,#pl_content_bubBox,#pl_rightmod_feedback,#pl_rightmod_reportentry,#pl_content_commentTopNav,#pl_rightmod_helpcomment,#pl_rightmod_helpfav,#pl_rightmod_helptome,#pl_leftnav_app,#pl_content_setSkin,#Pl_Rightmod_Helpbox {
+#pl_business_enterpriseWeiboNew,#trustPagelet_checkin_lotteryv5,#pl_rightmod_userguide,#Pl_Rightmod_Littlehelp,#pl_rightmod_weibodesk,#pl_rightmod_feedback,#pl_common_reportentry,#trustPagelet_recom_interestv5,#pl_rightmod_ads35,#trustPagelet_zt_hottopicv5,#trustPagelet_recom_memberv5,#trustPagelet_recom_allinonev5,#pl_rightmod_ads36,#pl_rightmod_vservice,#pl_rightmod_noticeboard,#pl_content_bubBox,#pl_rightmod_feedback,#pl_rightmod_reportentry,#pl_content_commentTopNav,#pl_rightmod_helpcomment,#pl_rightmod_helpfav,#pl_rightmod_helptome,#pl_leftnav_app,#pl_content_setSkin,#Pl_Rightmod_Helpbox,#pl_rightmod_helpat,#pl_rightmod_helplike,#Pl_Rightmod_Helpnotebox {
 	display:none;
 }
 
@@ -866,7 +866,7 @@ div[node-type="moreList"] .lev a:hover,div[node-type="moreList"] .lev a:hover .l
 	line-height:12px;
 }
 
-.B_favor_me .W_main_c,.B_message_list .W_main_c,.B_box_comment .W_main_c,.B_box_comment_at .W_main_c,.B_box_comment_at .W_main_r {
+.B_favor_me .W_main_c,.B_message_list .W_main_c,.B_box_comment .W_main_c,.B_box_comment_at .W_main_c,.B_box_comment_at .W_main_r,.B_message_box_index .W_main_c {
 	padding:6px 0!important;
 	background:#fff;
 }
