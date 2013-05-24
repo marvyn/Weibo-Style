@@ -866,7 +866,7 @@ div[node-type="moreList"] .lev a:hover,div[node-type="moreList"] .lev a:hover .l
 	line-height:12px;
 }
 
-.B_favor_me .W_main_c,.B_message_list .W_main_c,.B_box_comment .W_main_c,.B_box_comment_at .W_main_c,.B_box_comment_at .W_main_r,.B_message_box_index .W_main_c {
+.B_favor_me .W_main_c,.B_message_list .W_main_c,.B_box_comment .W_main_c,.B_box_comment_at .W_main_c,.B_box_comment_at .W_main_r,.B_message_box_index .W_main_c,.B_box_msg .W_main_c {
 	padding:6px 0!important;
 	background:#fff;
 }
