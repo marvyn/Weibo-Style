@@ -148,7 +148,7 @@ form.left_nav_line {
 
 /* Nav Bar */
 .WB_global_nav {
-	z-index: 99;
+	z-index: 9999;
 	height:40px!important;
 	border-bottom:1px solid #3a3a3a;
 	background:none!important;
@@ -1181,6 +1181,10 @@ div[node-type="feed_list_media_prev"] {
 
 .WB_feed .WB_text img {
 	display:none;
+}
+
+.WB_feed textarea {
+	height: 24px!important;
 }
 
 .WB_feed .map_data {
