@@ -6,7 +6,8 @@
 	font-family:Helvetica,Arial,sans-serif!important;
 }
 textarea,textarea:before,textarea:after,input,input:before,input:after{
-	box-sizing:border-box
+	box-sizing:border-box;
+	width:100%!important
 }
 fieldset legend {
 	margin:0;
@@ -1253,7 +1254,8 @@ div[node-type="feed_list_media_prev"] {
 }
 
 .feed_list {
-	padding:0 20px 15px!important;
+	padding:0 10px 8px!important;
+	margin-bottom:8px;
 }
 
 .S_weibo .search_tab,.S_weibo .search_feed,.S_weibo .pl_directarea {
