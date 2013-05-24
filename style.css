@@ -166,8 +166,8 @@ form.left_nav_line
 {
 	padding:0!important
 }
-.name_card .links>p {
-	display: none;
+.name_card .links p {
+	display: none!important;
 }
 .W_miniblog
 {
