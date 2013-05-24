@@ -838,7 +838,7 @@ form.left_nav_line
 
 #wbpNavBar
 {
-	margin:0
+	margin-bottom:10px!important
 }
 
 #pl_leftnav_common .level_1_Box .lev a:hover
