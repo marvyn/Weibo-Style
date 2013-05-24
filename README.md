@@ -6,7 +6,7 @@ Heavy Sina Weibo users like me feel fucked up by Sina every day with those annoy
 
 If you want any help about this little trick, you can just tweet at [@hoola](http://weibo.com/hola). :)
 
-## Requirement
+## Requirements
 * [Google Chrome](http://www.google.com/chrome)
 
 * [眼不见心不烦](https://chrome.google.com/webstore/detail/aognaapdfnnldnjglanfbbklaakbpejm) for Google Chrome
