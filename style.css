@@ -96,7 +96,7 @@ form.left_nav_line {
 }
 
 .W_btn_e span,.W_btn_e_disable span,.W_btn_f span,.W_btn_f_disable span,.W_btn_g span,.W_btn_g_disable span {
-	padding:4px 12px;
+	padding:4px 10px;
 	line-height:20px;
 }
 
@@ -117,12 +117,12 @@ form.left_nav_line {
 }
 
 .name_card .name {
-	padding:10px 12px!important;
+	padding:10px 10px!important;
 }
 
 .name_card .info {
 	margin:0!important;
-	padding:0 12px 8px!important;
+	padding:0 10x 8px!important;
 }
 
 .name_card .info dd {
@@ -130,7 +130,7 @@ form.left_nav_line {
 }
 
 .name_card .links {
-	padding:0 12px 10px!important;
+	padding:0 10px 10px!important;
 }
 
 .W_miniblog {
@@ -217,7 +217,7 @@ form.left_nav_line {
 }
 
 .gn_topmenulist_search .selectbox dl {
-	padding:4px 12px;
+	padding:4px 10px;
 }
 
 .gn_topmenulist_search .selectbox dl.current {
@@ -231,7 +231,7 @@ form.left_nav_line {
 }
 
 .gn_topmenulist_search .selectbox p.title,.gn_topmenulist_search .selectbox p.keyword {
-	padding:4px 12px;
+	padding:4px 10px;
 	height:auto;
 	line-height:24px;
 }
@@ -281,7 +281,7 @@ form.left_nav_line {
 }
 
 .gn_topmenulist_send .title {
-	padding:6px 12px;
+	padding:6px 10px;
 	height:13px!important;
 	background-color:#f5f5f5;
 	box-shadow:inset 0 1px 0 #fff;
@@ -326,7 +326,7 @@ form.left_nav_line {
 }
 
 .gn_topmenulist_send .send_weibo .num span {
-	padding:8px 12px;
+	padding:8px 10px;
 	height:auto;
 	font-size:12px;
 	line-height:13px;
@@ -351,7 +351,7 @@ form.left_nav_line {
 }
 
 .gn_tips {
-	padding:6px 12px!important;
+	padding:6px 10px!important;
 }
 
 .gn_tips .tips_list {
@@ -359,7 +359,7 @@ form.left_nav_line {
 }
 
 .gn_tips .tips_list li {
-	padding:0 12px!important;
+	padding:0 10px!important;
 }
 
 .gn_topmenulist_set,.gn_topmenulist_notice {
@@ -373,7 +373,7 @@ form.left_nav_line {
 }
 
 .gn_topmenulist .gn_text_list li a {
-	padding:4px 12px!important;
+	padding:4px 10px!important;
 	line-height:24px;
 }
 
@@ -387,7 +387,7 @@ form.left_nav_line {
 
 .gn_topmenulist .gn_notice_app dt a {
 	display:block;
-	padding:4px 12px!important;
+	padding:4px 10px!important;
 	color:#333;
 	line-height:24px;
 }
@@ -401,7 +401,7 @@ form.left_nav_line {
 
 .gn_topmenulist .gn_func a {
 	display:block;
-	padding:4px 12px!important;
+	padding:4px 10px!important;
 	color:#333;
 	line-height:24px;
 }
@@ -517,11 +517,11 @@ form.left_nav_line {
 
 .B_index .W_pages {
 	margin:6px 0;
-	padding:0 12px;
+	padding:0 10px;
 }
 
 .B_index .send_weibo {
-	padding:0 12px 10px;
+	padding:0 10px 10px;
 }
 
 .send_weibo .title {
@@ -564,8 +564,9 @@ form.left_nav_line {
 }
 
 .send_weibo .input .input_detail {
+	box-sizing:border-box;
 	margin:0;
-	width:554px;
+	width:100%;
 	border:1px solid #ccc;
 	border-radius:0;
 	box-shadow:inset 0 1px 3px rgba(0,0,0,.05),0 1px 0 rgba(255,255,255,.075);
@@ -576,7 +577,9 @@ form.left_nav_line {
 	border-color:#56b4ef;
 	box-shadow:inset 0 1px 3px rgba(0,0,0,.05),0 0 8px rgba(82,168,236,.6);
 }
-
+.send_weibo .func {
+	padding-top: 6px;
+}
 .send_weibo .func .limits,.send_weibo .input .arrow,.send_weibo .input.clicked .arrow,.send_weibo .kind {
 	display:none;
 }
@@ -633,7 +636,7 @@ form.left_nav_line {
 }
 
 #pl_rightmod_myinfo {
-	padding:6px 12px;
+	padding:6px 6px;
 }
 
 #pl_rightmod_myinfo dl {
@@ -675,8 +678,8 @@ form.left_nav_line {
 .B_index .user_atten {
 	margin:0;
 	margin-top:6px;
-	margin-right:-12px;
-	margin-left:-12px;
+	margin-right:-10px;
+	margin-left:-10px;
 	background:#00ABEF;
 }
 
@@ -689,7 +692,7 @@ form.left_nav_line {
 }
 
 .B_index .user_atten li a {
-	padding:6px 12px;
+	padding:6px 10px;
 	color:#fff;
 	text-shadow:0 0 1px #000;
 	font-size:14px;
@@ -709,7 +712,7 @@ form.left_nav_line {
 }
 
 #pl_leftnav_common .level_1_Box .lev a {
-	padding:8px 12px;
+	padding:8px 10px;
 	height:14px;
 	line-height:14px;
 }
@@ -736,7 +739,7 @@ form.left_nav_line {
 }
 
 div[node-type="group_show_list"] .lev a {
-	padding:8px 12px;
+	padding:8px 10px;
 	height:12px;
 	line-height:12px;
 }
@@ -759,7 +762,7 @@ div[node-type="group_show_list"] .lev a.lev_curr:hover {
 }
 
 div[node-type="moreList"] .lev a {
-	padding:8px 12px;
+	padding:8px 10px;
 	height:12px;
 	line-height:12px;
 }
@@ -822,7 +825,7 @@ div[node-type="moreList"] .lev a:hover,div[node-type="moreList"] .lev a:hover .l
 }
 
 .big_comment_list .WB_feed_type,.big_comment_list .msg_box {
-	margin:0 12px!important;
+	margin:0 10px!important;
 	padding:9px 0!important;
 }
 
@@ -835,8 +838,8 @@ div[node-type="moreList"] .lev a:hover,div[node-type="moreList"] .lev a:hover .l
 }
 
 .W_pages_minibtn {
-	margin:12px 0 6px!important;
-	padding:0 12px!important;
+	margin:10px 0 6px!important;
+	padding:0 10px!important;
 }
 
 .W_pages_minibtn .W_btn_c {
@@ -844,11 +847,11 @@ div[node-type="moreList"] .lev a:hover,div[node-type="moreList"] .lev a:hover .l
 }
 
 .WB_right_module .person_group {
-	padding:4px 12px;
+	padding:4px 10px;
 }
 
 .WB_right_module .btm_rt {
-	padding:0 12px;
+	padding:0 10px;
 }
 
 .WB_right_module .person_group .pic {
@@ -861,7 +864,7 @@ div[node-type="moreList"] .lev a:hover,div[node-type="moreList"] .lev a:hover .l
 
 .WB_left_nav .levmore .S_link1 {
 	display:block;
-	padding:8px 12px;
+	padding:8px 10px;
 	height:12px;
 	line-height:12px;
 }
@@ -876,17 +879,17 @@ div[node-type="moreList"] .lev a:hover,div[node-type="moreList"] .lev a:hover .l
 }
 
 .B_mention_me .tab_normal,.B_box_msg .group_read,.B_message_list .tab_normal,.B_message_list .group_read,.B_mention_me .group_read,.B_box_comment_at .group_read,.B_send_me .tab_normal,.B_favor_me .group_read,.B_send_me .group_read,.B_box_comment .group_read,.B_box_comment .tab_normal {
-	margin:0 12px 6px;
+	margin:0 10px 6px;
 	padding:0;
 }
 
 .B_message_list .message_acbox{
 	position: relative;
-	margin: 6px 12px;
+	margin: 6px 10px;
 	height:24px;
 }
 .B_message_list .message_bottom_ac {
-	margin: 12px 12px 6px;
+	margin: 10px 10px 6px;
 }
 .B_message_list .message_bottom_ac .message_allbtn {
 	float: none;
@@ -1134,14 +1137,14 @@ div[node-type="feed_list_media_prev"] {
 .WB_feed .WB_feed_type {
 	position:relative;
 	margin:0!important;
-	padding:9px 12px!important;
+	padding:8px 10px!important;
 	border-bottom:1px solid #e9e9e9;
 }
 
 .WB_feed .WB_screen {
 	position:absolute;
-	top:9px;
-	right:12px;
+	top:8px;
+	right:10px;
 	margin:0!important;
 }
 
@@ -1248,11 +1251,11 @@ div[node-type="feed_list_media_prev"] {
 }
 
 .S_weibo .S_content_l,.S_weibo .S_content_r {
-	padding-top:12px;
+	padding-top:10x;
 }
 
 .search_tab_weibo .basic_search {
-	padding:0 12px;
+	padding:0 10x;
 }
 
 .S_bg2,.WB_left_nav .lev a:hover,.WB_left_nav .lev2 a:hover,.WB_left_nav .lev2 a.lev_curr,.WB_left_nav .lev2 a.lev_curr:hover,.WB_left_nav .lev_edit .lev a:hover {
@@ -1277,7 +1280,7 @@ div[node-type="feed_list_media_prev"] {
 
 .left_nav_line fieldset {
 	margin:0;
-	padding:0 12px;
+	padding:0 10px;
 	height:23px;
 }
 
@@ -1288,7 +1291,7 @@ div[node-type="feed_list_media_prev"] {
 .WB_right_module fieldset {
 	position:relative;
 	margin:0;
-	padding:0 12px;
+	padding:0 10px;
 	height:23px;
 	border-left:none;
 }
@@ -1314,7 +1317,7 @@ div[node-type="feed_list_media_prev"] {
 }
 
 .layer_mini_info {
-	padding:6px 12px;
+	padding:6px 10px;
 }
 
 .layer_mini_info .btn {
@@ -1334,7 +1337,7 @@ a#base_scrollToTop {
 }
 
 .B_closefriend .send_weibo {
-	padding:0 12px;
+	padding:0 10px;
 }
 
 .WB_deltxt {
@@ -1401,7 +1404,7 @@ a#base_scrollToTop {
 	font-size:14px!important;
 }
 .private_list_box{margin:0;}
-.check_operation{padding:9px 12px;border-bottom:1px solid #ccc;}
+.check_operation{padding:8px 10px;border-bottom:1px solid #ccc;}
 .check_operation .private_list{padding:0;border:0;}
 .private_list .hover{display:none;}
 .tab_normal{background:transparent!important;}
