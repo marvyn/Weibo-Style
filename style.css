@@ -1,4 +1,4 @@
-/*reset*/
+/*Reset*/
 * {
 	margin:0;
 	padding:0;
@@ -22,7 +22,7 @@ form.left_nav_line {
 	display:none;
 }
 
-/*re-style buttons*/
+/*Re-style buttons*/
 .W_btn_a,.W_btn_a span,.W_btn_a_disable,.W_btn_a_disable span,.W_btn_b,.W_btn_b span,.W_btn_b_disable,.W_btn_b_disable span,.W_btn_c,.W_btn_c span,.W_btn_c_disable,.W_btn_c_disable span,.W_btn_d,.W_btn_d span,.W_btn_d_disable,.W_btn_d_disable span,.W_btn_e,.W_btn_e span,.W_btn_e_disable,.W_btn_e_disable span,.W_btn_f,.W_btn_f span,.W_btn_f_disable,.W_btn_f_disable span,.W_btn_g,.W_btn_g span,.W_btn_g_disable,.W_btn_g_disable span,.W_btn_round,.W_btn_round span,.W_btn_round_ico,.W_btn_round_ico span,.W_btn_round2,.W_btn_round2 span,.W_btn_arrow,.W_btn_arrow span,.W_btn_round2,.W_btn_round2 span,.W_btn_v,.W_btn_v span {
 	margin:0;
 	padding:0;
@@ -121,6 +121,7 @@ form.left_nav_line {
 	color:auto;
 }
 
+/*Name Card*/
 .name_card .name {
 	padding:10px 10px!important;
 }
@@ -142,6 +143,7 @@ form.left_nav_line {
 	padding-top:54px;
 }
 
+/* Nav Bar */
 .WB_global_nav {
 	z-index: 99;
 	height:40px!important;
@@ -241,6 +243,7 @@ form.left_nav_line {
 	line-height:24px;
 }
 
+/* top nav bar send weibo*/
 .gn_topmenulist_send .gn_arrow {
 	top:-6px;
 	width:12px;
@@ -494,6 +497,7 @@ form.left_nav_line {
 	background-position:-50px -100px;
 }
 
+/* The Main section*/
 .W_main {
 	width:830px;
 	background:transparent;
