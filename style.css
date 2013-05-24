@@ -875,7 +875,7 @@ div[node-type="moreList"] .lev a:hover,div[node-type="moreList"] .lev a:hover .l
 	padding:0;
 }
 
-.B_mention_me .tab_normal,.B_message_list .tab_normal,.B_message_list .group_read,.B_mention_me .group_read,.B_box_comment_at .group_read,.B_send_me .tab_normal,.B_favor_me .group_read,.B_send_me .group_read,.B_box_comment .group_read,.B_box_comment .tab_normal {
+.B_mention_me .tab_normal,.B_box_msg .group_read,.B_message_list .tab_normal,.B_message_list .group_read,.B_mention_me .group_read,.B_box_comment_at .group_read,.B_send_me .tab_normal,.B_favor_me .group_read,.B_send_me .group_read,.B_box_comment .group_read,.B_box_comment .tab_normal {
 	margin:0 12px 6px;
 	padding:0;
 }
