@@ -144,15 +144,17 @@ form.left_nav_line
 	color:auto
 }
 
+.name_card {
+	padding: 10px!important;
+}
 .name_card .name
 {
-	padding:10px!important
+	padding:0!important
 }
 
 .name_card .info
 {
-	margin:0!important;
-	padding:0 10x 8px!important
+	margin:8px 0!important;
 }
 
 .name_card .info dd
@@ -162,9 +164,11 @@ form.left_nav_line
 
 .name_card .links
 {
-	padding:0 10px 10px!important
+	padding:0!important
 }
-
+.name_card .links>p {
+	display: none;
+}
 .W_miniblog
 {
 	padding-top:54px
