@@ -5,7 +5,9 @@
 	border-radius:0;
 	font-family:Helvetica,Arial,sans-serif!important;
 }
-
+textarea,textarea:before,textarea:after,input,input:before,input:after{
+	box-sizing:border-box
+}
 fieldset legend {
 	margin:0;
 	padding:0;
@@ -179,8 +181,8 @@ form.left_nav_line {
 .WB_global_nav .gn_search .gn_input {
 	margin:0!important;
 	padding:3px 8px!important;
-	width:214px!important;
-	height:20px!important;
+	width:100%!important;
+	height:26px!important;
 	border-radius:0!important;
 	background-color:#ccc!important;
 	box-shadow:inset 0 1px 2px rgba(0,0,0,.2)!important;
@@ -193,7 +195,7 @@ form.left_nav_line {
 .WB_global_nav .gn_search .gn_btn {
 	position:absolute;
 	top:3px;
-	right:5px;
+	right:3px;
 	display:block;
 	width:20px;
 	height:20px;
@@ -306,7 +308,7 @@ form.left_nav_line {
 }
 
 .gn_topmenulist_send .send_weibo .input .input_detail {
-	width:391px;
+	width: 100%;
 	border:1px solid #ccc!important;
 }
 
@@ -567,7 +569,6 @@ form.left_nav_line {
 }
 
 .send_weibo .input .input_detail {
-	box-sizing:border-box;
 	margin:0;
 	width:100%;
 	border:1px solid #ccc;
@@ -1180,14 +1181,16 @@ div[node-type="feed_list_media_prev"] {
 }
 
 .B_index .WB_feed .repeat .input textarea {
+	box-sizing:border-box;
 	padding:4px;
-	width:474px;
+	width:100%;
 	border-radius:0;
 }
 
 .B_index .WB_feed dl .repeat .input textarea {
+	box-sizing:border-box;
 	padding:4px;
-	width:412px;
+	width:100%;
 	height:18px;
 	border-radius:0;
 	box-shadow:1px 1px 1px 0 #eaeaea inset;
