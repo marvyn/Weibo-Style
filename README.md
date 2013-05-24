@@ -18,7 +18,7 @@ If you want any help about this little trick, please just tweet at [@hoola](http
 ## Installation
 First of all, you need to install two extensions for Google Chrome as mentioned in the Requirements section.
 
-Then open the preference panel for Stylish. Copy the [stylesheet content](https://github.com/marvyn/Weibo-Style/blob/master/style.css) into the Code area. In the 'Applies to' fieldset, choose 'URLs on the domain' and input 'weibo.com', choose a Style name and enable it. ([Settings for Stylish screen capture](http://d.pr/i/DKTU))
+Then open the preference panel for Stylish. Copy the [stylesheet content](https://github.com/marvyn/Weibo-Style/blob/master/style.min.css) into the Code area. In the 'Applies to' fieldset, choose 'URLs on the domain' and input 'weibo.com', choose a Style name and enable it. ([Settings for Stylish screen capture](http://d.pr/i/DKTU))
 
 At last, make sure you enable the '双栏板式' option in the preference panel for '眼不见心不烦'. ([Settings for '眼不见心不烦' screen capture](http://d.pr/i/mVLn))
 
