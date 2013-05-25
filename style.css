@@ -1268,7 +1268,7 @@ div[node-type="moreList"] .lev a:hover,div[node-type="moreList"] .lev a:hover .l
 {
 	float:left;
 	padding:3px 5px 0;
-	width:394px
+	width:398px
 }
 
 .WB_feed .WB_media_expand .WB_func
@@ -1278,7 +1278,7 @@ div[node-type="moreList"] .lev a:hover,div[node-type="moreList"] .lev a:hover .l
 	left:0;
 	margin:0;
 	padding:0 5px 3px;
-	width:394px;
+	width:398px;
 	background-color:#f1f1f1
 }
 
@@ -1764,3 +1764,6 @@ a#base_scrollToTop
 	background-color:#00abef!important;
 	color:#fff
 }
+
+.B_profile_pic .W_main{width:980px}
+#plc_profile_header{min-height:0}
