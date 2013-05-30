@@ -1,7 +1,7 @@
 # Weibo Style
 A clean, mordern style for [Sina Weibo](http://weibo.com/).
 
-[Preview the result](http://d.pr/i/byoD)
+[Preview](http://d.pr/i/byoD)
 ![image](http://bcs.duapp.com/picstore/C0Z8JpK8iZ.png)
 
 ## Introduction
