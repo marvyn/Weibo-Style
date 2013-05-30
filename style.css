@@ -996,7 +996,7 @@ div[node-type="moreList"] .lev a:hover,div[node-type="moreList"] .lev a:hover .l
 
 .big_comment_list .comment
 {
-	width:501px!important;
+	width:505px!important;
 }
 
 .big_comment_list .comment em.hover
@@ -1799,4 +1799,19 @@ a#base_scrollToTop
 	height: 24px;
 	text-shadow: 0 1px 1px rgba(255,255,255,.6);
 	line-height: 24px;
+}
+
+/*** 私信页面 ***/
+.B_message_list .all_msg_list .msg_list_node {
+	margin:0!important;
+	padding:8px 10px!important;
+}
+
+.WB_msg_type.msg_hover_on .msg_list_node {
+	border-bottom: 1px solid #e6e6e6
+}
+
+.WB_msg_type .msg_ctrls {
+	top:8px!important;
+	right:10px!important;
 }
