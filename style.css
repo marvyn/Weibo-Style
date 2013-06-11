@@ -3,7 +3,7 @@
 	margin:0;
 	padding:0;
 	border-radius:0;
-	font-family:Helvetica,Arial,sans-serif!important;
+	font-family:'Helvetica Neue',Helvetica,Arial,sans-serif!important;
 }
 
 textarea,textarea:before,textarea:after,input,input:before,input:after
@@ -282,9 +282,9 @@ form.left_nav_line
 
 .gn_topmenulist_search .selectbox p.title,.gn_topmenulist_search .selectbox p.keyword
 {
-	padding:4px 10px;
+	padding:6px 10px;
 	height:auto;
-	line-height:24px;
+	line-height:14px;
 }
 
 .gn_topmenulist_send .gn_arrow
@@ -439,16 +439,10 @@ form.left_nav_line
 	padding:6px 0!important;
 }
 
-.gn_topmenulist .gn_text_list li
-{
-	height:32px!important;
-	line-height:24px!important;
-}
-
 .gn_topmenulist .gn_text_list li a
 {
-	padding:4px 10px!important;
-	line-height:24px;
+	padding:6px 10px!important;
+	line-height:14px;
 }
 
 .gn_topmenulist .gn_notice_app
@@ -464,25 +458,24 @@ form.left_nav_line
 .gn_topmenulist .gn_notice_app dt a
 {
 	display:block;
-	padding:4px 10px!important;
+	padding:6px 10px!important;
 	color:#333;
-	line-height:24px;
+	line-height:14px;
 }
 
 .gn_topmenulist .gn_func
 {
 	padding:0!important;
-	height:32px;
+	height:26px!important;
 	background-color:#fff;
-	line-height:26px;
 }
 
 .gn_topmenulist .gn_func a
 {
 	display:block;
-	padding:4px 10px!important;
+	padding:6px 10px!important;
 	color:#333;
-	line-height:24px;
+	line-height:14px;
 }
 
 .gn_topmenulist .gn_text_list
@@ -798,7 +791,7 @@ form.left_nav_line
 
 #pl_rightmod_myinfo .user_atten
 {
-	margin:6px -10px 0;
+	margin:6px -6px 0;
 	background:#00ABEF;
 }
 
@@ -808,7 +801,6 @@ form.left_nav_line
 	padding:0;
 	width:33%;
 	border-color:#fff;
-	text-align:center;
 }
 
 #pl_rightmod_myinfo .user_atten li a
@@ -816,18 +808,20 @@ form.left_nav_line
 	padding:6px 10px;
 	color:#fff;
 	text-shadow:0 0 1px #000;
-	font-size:14px;
 }
 
-#pl_rightmod_myinfo .user_atten_l li strong
+#pl_rightmod_myinfo .user_atten_l li a strong
 {
 	font-weight:700;
 	font-size:14px!important;
+	margin-bottom: 6px;
+	line-height:1;
 }
 
 #pl_rightmod_myinfo .user_atten li a span
 {
-	font-size:13px;
+	font-size:12px;
+	line-height: 1;
 }
 
 #wbpNavBar
@@ -845,7 +839,7 @@ form.left_nav_line
 
 #wbpNavBar .lev .icon_opt
 {
-	margin-right:0;
+	margin:0;
 }
 
 #wbpNavBar .lev .W_ico20
@@ -911,9 +905,9 @@ form.left_nav_line
 #pl_leftnav_group .lev a
 {
 	position: relative;
-	padding: 0 10px;
-	height: 28px;
-	line-height: 28px;
+	padding: 6px 10px;
+	height: 14px;
+	line-height: 14px;
 }
 
 #pl_leftnav_group .lev a:hover
@@ -950,14 +944,21 @@ form.left_nav_line
 	min-width: 0;
 	padding: 0;
 }
+#pl_leftnav_group .lev a .levtxt
+{
+	margin:0;
+	padding:0;
+	display:inline;
+	line-height:14px;
+}
 #pl_leftnav_group .levmore
 {
 	padding:0!important;
 }
 #pl_leftnav_group .levmore a{
-	padding:0 10px!important;
-	height:28px!important;
-	line-height:28px!important;
+	padding:6px 10px!important;
+	height:14px!important;
+	line-height:14px!important;
 	display: block;
 }
 
