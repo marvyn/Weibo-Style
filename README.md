@@ -1,8 +1,8 @@
 # Weibo Style
 A clean, mordern style for [Sina Weibo](http://weibo.com/).
 
-[Preview](http://d.pr/i/7KYj)
-![image](http://bcs.duapp.com/picstore/tkTdLuUXSF.png)
+[Preview](http://d.pr/i/20sa)
+![image](http://bcs.duapp.com/picstore/ZC366p2KPj.png)
 
 ## Introduction
 Heavy Sina Weibo users like me feel fucked up by Sina every day with those annoying badges, shitty banners and terrible layouts. With help of Chrome extensions like AdBlock Plus and '眼不见心不烦', we sufferd less because unrelevant badges and icons and ads are blocked by them. But that's not enough, we can do more than that, so I'd like to change the whole page to fill our eyes with an even cleanner and mordern layout. With this stylesheet, a lot of elements in the page are altered so that we can say goodbye to a bad experience while surfing on Weibo.
