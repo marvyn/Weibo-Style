@@ -12,15 +12,12 @@ If you want any help about this little trick, please just tweet at [@hoola](http
 ## Requirements
 * [Google Chrome](http://www.google.com/chrome)
 
-* [眼不见心不烦](https://chrome.google.com/webstore/detail/aognaapdfnnldnjglanfbbklaakbpejm) for Google Chrome
+* [眼不见心不烦](https://chrome.google.com/webstore/detail/aognaapdfnnldnjglanfbbklaakbpejm) extension for Google Chrome
 
-* [Stylish](https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe) for Google Chrome
 
 ## Installation
 First of all, you need to install two extensions for Google Chrome as mentioned in the Requirements section.
 
-Then open the preference panel for Stylish. Copy the [stylesheet content](https://github.com/marvyn/Weibo-Style/blob/master/style.min.css) into the Code area. In the 'Applies to' fieldset, choose 'URLs on the domain' and input 'weibo.com', choose a Style name and enable it. ([Settings for Stylish screen capture](http://d.pr/i/DKTU))
-
-At last, make sure you enable the '双栏板式' option in the preference panel for '眼不见心不烦'. ([Settings for '眼不见心不烦' screen capture](http://d.pr/i/mVLn))
+Then open the preference panel for '眼不见心不烦'. In the left menu, select the '改变版式' section. Check the '双栏版式' option. Copy the [stylesheet content](https://github.com/marvyn/Weibo-Style/blob/master/style.min.css) into the '自定义样式' code area. Then hit the '确定' button to save all the settings.
 
 Congrats, there you go!
