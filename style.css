@@ -704,39 +704,44 @@ form.left_nav_line
 	padding:5px 20px;
 	width:auto;
 	height:auto;
-	border:1px solid #057ed0;
+	border:0;
 	border-radius:0;
 	background:none;
-	background-color:#019ad2;
-	box-shadow:inset 0 1px 0 rgba(255,255,255,.1);
-	color:#fff;
+	background-color:#00abef;
 	text-indent:0;
 	text-shadow:0 -1px 1px rgba(0,0,0,.25);
-	font:normal 14px/18px Tahoma;
-	0:-1px 1px rgba(0,0,0,.25);
+	font:normal 14px/18px sans-serif;
+	transition:.1s linear box-shadow;
 }
 
 .send_weibo .send_btn:hover
 {
-	background-color:#3a87ad;
-	background-position:0 0;
+	background-color:#1f8dd6;
 }
 
 .send_weibo .send_btn:active
 {
-	border-color:#096eb3;
-	background-image:none;
-	box-shadow:inset 0 2px 4px rgba(0,0,0,.1),0 1px 0 rgba(255,255,255,.5);
+	box-shadow:inset 0 0 6px rgba(0,0,0,.2),0 0 0 1px rgba(0,0,0,.15) inset;
 }
 
-.send_weibo .send_btn.disable,.send_weibo .send_btn.disable:hover
+.send_weibo .send_btn.disable
 {
-	border:1px solid #ccc;
-	border-radius:0;
-	background:#ddd!important;
+	background-color: #e6e6e6;
 	background-image:none;
-	color:#777;
+	color:#444;
 	text-shadow:0 1px 1px rgba(255,255,255,.75);
+}
+
+.send_weibo .send_btn.disable:hover
+{
+	background-image:none;
+	color:#444;
+	background-color:#e0e0e0;
+}
+
+.send_weibo .send_btn.disable:active
+{
+	background-color:#e0e0e0;
 }
 
 #pl_business_enterpriseWeiboNew,#trustPagelet_checkin_lotteryv5,#pl_rightmod_userguide,#Pl_Rightmod_Littlehelp,#pl_rightmod_weibodesk,#pl_rightmod_feedback,#pl_common_reportentry,#trustPagelet_recom_interestv5,#pl_rightmod_ads35,#trustPagelet_zt_hottopicv5,#trustPagelet_recom_memberv5,#trustPagelet_recom_allinonev5,#pl_rightmod_ads36,#pl_rightmod_vservice,#pl_rightmod_noticeboard,#pl_content_bubBox,#pl_rightmod_feedback,#pl_rightmod_reportentry,#pl_content_commentTopNav,#pl_rightmod_helpcomment,#pl_rightmod_helpfav,#pl_rightmod_helptome,#pl_leftnav_app,#pl_content_setSkin,#Pl_Rightmod_Helpbox,#pl_rightmod_helpat,#pl_rightmod_helplike,#Pl_Rightmod_Helpnotebox
@@ -893,7 +898,7 @@ form.left_nav_line
 #pl_leftnav_common .level_1_Box .lev a
 {
 	padding:8px 10px;
-	height:14;
+	height:14px;
 	line-height:14px;
 }
 
@@ -1025,6 +1030,12 @@ form.left_nav_line
 .big_comment_list .comment em.hover
 {
 	display:none;
+}
+
+.big_comment_list .comment .cm_arr_box
+{
+	border-radius:0;
+	padding: 8px 10px;
 }
 
 .W_pages_minibtn
@@ -1284,6 +1295,11 @@ form.left_nav_line
 	border-radius:0!important;
 }
 
+.WB_feed .WB_media_expand .WB_text
+{
+	line-height: 1.5
+}
+
 .WB_feed .WB_media_expand.SW_fun2
 {
 	position:relative;
@@ -1425,7 +1441,7 @@ div[node-type="feed_list_media_prev"]
 	padding:0!important;
 	min-height:18px;
 	font-size:14px;
-	line-height:1.5!important;
+	line-height:1.7;
 }
 
 .WB_feed .WB_text img
@@ -1814,6 +1830,17 @@ a#base_scrollToTop
 	width:34px;
 	height:34px;
 	border-radius:0;
+}
+
+.WB_feed .W_loading {
+	margin: 0;
+	text-align: center;
+	padding: 0;
+}
+
+.WB_feed .W_loading span {
+	padding: 6px 0;
+	background-position: 39% 50%;
 }
 
 .W_loading span, .zero_tips span {
