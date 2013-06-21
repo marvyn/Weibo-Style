@@ -16,7 +16,7 @@ If you want any help about this little trick, please just tweet at [@hoola](http
 
 
 ## Installation
-First of all, you need to install two extensions for Google Chrome as mentioned in the Requirements section.
+First of all, you need to install the '眼不见心不烦' extension for Google Chrome as mentioned above in the [Requirements](#requirements) section.
 
 Then open the preference panel for '眼不见心不烦'. In the left menu, select the '改变版式' section. Check the '双栏版式' option. Copy the [stylesheet content](https://github.com/marvyn/Weibo-Style/blob/master/style.min.css) into the '自定义样式' code area. Then hit the '确定' button to save all the settings.
 
